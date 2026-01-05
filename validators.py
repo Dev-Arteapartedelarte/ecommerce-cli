@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+
 """
 Módulo de validaciones del E-commerce.
 
