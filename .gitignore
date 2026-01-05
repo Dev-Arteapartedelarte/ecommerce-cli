@@ -1,0 +1,72 @@
+### Python ###
+# Archivos compilados y caché
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Entornos Virtuales (MUY IMPORTANTE)
+.venv/
+venv/
+ENV/
+env/
+bin/
+include/
+lib/
+
+### Jupyter Notebooks ###
+.ipynb_checkpoints
+
+### Variables de entorno y Secretos (Seguridad) ###
+.env
+.flaskenv
+*.secret
+*.pem
+*.key
+
+### IDEs y Editores ###
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# PyCharm / IntelliJ
+.idea/
+
+### Herramientas de Testing y Calidad ###
+.cache
+.pytest_cache/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+### Sistema Operativo ###
+.DS_Store
+Thumbs.db
